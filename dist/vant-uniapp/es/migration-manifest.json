@@ -1,0 +1,414 @@
+{
+  "generatedAt": "2026-06-09T07:02:59.667Z",
+  "source": "packages",
+  "components": [
+    {
+      "source": "packages/action-sheet",
+      "output": "src/components/vant-uni/uni-action-sheet.vue",
+      "exportName": "UniActionSheet",
+      "generated": true
+    },
+    {
+      "source": "packages/area",
+      "output": "src/components/vant-uni/uni-area.vue",
+      "exportName": "UniArea",
+      "generated": true
+    },
+    {
+      "source": "packages/button",
+      "output": "src/components/vant-uni/uni-button.vue",
+      "exportName": "UniButton",
+      "generated": false
+    },
+    {
+      "source": "packages/calendar",
+      "output": "src/components/vant-uni/uni-calendar.vue",
+      "exportName": "UniCalendar",
+      "generated": true
+    },
+    {
+      "source": "packages/card",
+      "output": "src/components/vant-uni/uni-card.vue",
+      "exportName": "UniCard",
+      "generated": true
+    },
+    {
+      "source": "packages/cascader",
+      "output": "src/components/vant-uni/uni-cascader.vue",
+      "exportName": "UniCascader",
+      "generated": true
+    },
+    {
+      "source": "packages/cell",
+      "output": "src/components/vant-uni/uni-cell.vue",
+      "exportName": "UniCell",
+      "generated": true
+    },
+    {
+      "source": "packages/cell-group",
+      "output": "src/components/vant-uni/uni-cell-group.vue",
+      "exportName": "UniCellGroup",
+      "generated": true
+    },
+    {
+      "source": "packages/checkbox",
+      "output": "src/components/vant-uni/uni-checkbox.vue",
+      "exportName": "UniCheckbox",
+      "generated": true
+    },
+    {
+      "source": "packages/checkbox-group",
+      "output": "src/components/vant-uni/uni-checkbox-group.vue",
+      "exportName": "UniCheckboxGroup",
+      "generated": true
+    },
+    {
+      "source": "packages/circle",
+      "output": "src/components/vant-uni/uni-circle.vue",
+      "exportName": "UniCircle",
+      "generated": true
+    },
+    {
+      "source": "packages/col",
+      "output": "src/components/vant-uni/uni-col.vue",
+      "exportName": "UniCol",
+      "generated": true
+    },
+    {
+      "source": "packages/collapse",
+      "output": "src/components/vant-uni/uni-collapse.vue",
+      "exportName": "UniCollapse",
+      "generated": true
+    },
+    {
+      "source": "packages/collapse-item",
+      "output": "src/components/vant-uni/uni-collapse-item.vue",
+      "exportName": "UniCollapseItem",
+      "generated": true
+    },
+    {
+      "source": "packages/config-provider",
+      "output": "src/components/vant-uni/uni-config-provider.vue",
+      "exportName": "UniConfigProvider",
+      "generated": true
+    },
+    {
+      "source": "packages/count-down",
+      "output": "src/components/vant-uni/uni-count-down.vue",
+      "exportName": "UniCountDown",
+      "generated": true
+    },
+    {
+      "source": "packages/datetime-picker",
+      "output": "src/components/vant-uni/uni-datetime-picker.vue",
+      "exportName": "UniDatetimePicker",
+      "generated": true
+    },
+    {
+      "source": "packages/dialog",
+      "output": "src/components/vant-uni/uni-dialog.vue",
+      "exportName": "UniDialog",
+      "generated": true
+    },
+    {
+      "source": "packages/divider",
+      "output": "src/components/vant-uni/uni-divider.vue",
+      "exportName": "UniDivider",
+      "generated": true
+    },
+    {
+      "source": "packages/dropdown-item",
+      "output": "src/components/vant-uni/uni-dropdown-item.vue",
+      "exportName": "UniDropdownItem",
+      "generated": true
+    },
+    {
+      "source": "packages/dropdown-menu",
+      "output": "src/components/vant-uni/uni-dropdown-menu.vue",
+      "exportName": "UniDropdownMenu",
+      "generated": true
+    },
+    {
+      "source": "packages/empty",
+      "output": "src/components/vant-uni/uni-empty.vue",
+      "exportName": "UniEmpty",
+      "generated": true
+    },
+    {
+      "source": "packages/field",
+      "output": "src/components/vant-uni/uni-field.vue",
+      "exportName": "UniField",
+      "generated": true
+    },
+    {
+      "source": "packages/goods-action",
+      "output": "src/components/vant-uni/uni-goods-action.vue",
+      "exportName": "UniGoodsAction",
+      "generated": true
+    },
+    {
+      "source": "packages/goods-action-button",
+      "output": "src/components/vant-uni/uni-goods-action-button.vue",
+      "exportName": "UniGoodsActionButton",
+      "generated": true
+    },
+    {
+      "source": "packages/goods-action-icon",
+      "output": "src/components/vant-uni/uni-goods-action-icon.vue",
+      "exportName": "UniGoodsActionIcon",
+      "generated": true
+    },
+    {
+      "source": "packages/grid",
+      "output": "src/components/vant-uni/uni-grid.vue",
+      "exportName": "UniGrid",
+      "generated": true
+    },
+    {
+      "source": "packages/grid-item",
+      "output": "src/components/vant-uni/uni-grid-item.vue",
+      "exportName": "UniGridItem",
+      "generated": true
+    },
+    {
+      "source": "packages/icon",
+      "output": "src/components/vant-uni/uni-icon.vue",
+      "exportName": "UniIcon",
+      "generated": true
+    },
+    {
+      "source": "packages/image",
+      "output": "src/components/vant-uni/uni-image.vue",
+      "exportName": "UniImage",
+      "generated": true
+    },
+    {
+      "source": "packages/index-anchor",
+      "output": "src/components/vant-uni/uni-index-anchor.vue",
+      "exportName": "UniIndexAnchor",
+      "generated": true
+    },
+    {
+      "source": "packages/index-bar",
+      "output": "src/components/vant-uni/uni-index-bar.vue",
+      "exportName": "UniIndexBar",
+      "generated": true
+    },
+    {
+      "source": "packages/info",
+      "output": "src/components/vant-uni/uni-info.vue",
+      "exportName": "UniInfo",
+      "generated": true
+    },
+    {
+      "source": "packages/loading",
+      "output": "src/components/vant-uni/uni-loading.vue",
+      "exportName": "UniLoading",
+      "generated": true
+    },
+    {
+      "source": "packages/nav-bar",
+      "output": "src/components/vant-uni/uni-nav-bar.vue",
+      "exportName": "UniNavBar",
+      "generated": true
+    },
+    {
+      "source": "packages/notice-bar",
+      "output": "src/components/vant-uni/uni-notice-bar.vue",
+      "exportName": "UniNoticeBar",
+      "generated": true
+    },
+    {
+      "source": "packages/notify",
+      "output": "src/components/vant-uni/uni-notify.vue",
+      "exportName": "UniNotify",
+      "generated": true
+    },
+    {
+      "source": "packages/overlay",
+      "output": "src/components/vant-uni/uni-overlay.vue",
+      "exportName": "UniOverlay",
+      "generated": true
+    },
+    {
+      "source": "packages/panel",
+      "output": "src/components/vant-uni/uni-panel.vue",
+      "exportName": "UniPanel",
+      "generated": true
+    },
+    {
+      "source": "packages/picker",
+      "output": "src/components/vant-uni/uni-picker.vue",
+      "exportName": "UniPicker",
+      "generated": true
+    },
+    {
+      "source": "packages/picker-column",
+      "output": "src/components/vant-uni/uni-picker-column.vue",
+      "exportName": "UniPickerColumn",
+      "generated": true
+    },
+    {
+      "source": "packages/popup",
+      "output": "src/components/vant-uni/uni-popup.vue",
+      "exportName": "UniPopup",
+      "generated": true
+    },
+    {
+      "source": "packages/progress",
+      "output": "src/components/vant-uni/uni-progress.vue",
+      "exportName": "UniProgress",
+      "generated": true
+    },
+    {
+      "source": "packages/radio",
+      "output": "src/components/vant-uni/uni-radio.vue",
+      "exportName": "UniRadio",
+      "generated": true
+    },
+    {
+      "source": "packages/radio-group",
+      "output": "src/components/vant-uni/uni-radio-group.vue",
+      "exportName": "UniRadioGroup",
+      "generated": true
+    },
+    {
+      "source": "packages/rate",
+      "output": "src/components/vant-uni/uni-rate.vue",
+      "exportName": "UniRate",
+      "generated": true
+    },
+    {
+      "source": "packages/row",
+      "output": "src/components/vant-uni/uni-row.vue",
+      "exportName": "UniRow",
+      "generated": true
+    },
+    {
+      "source": "packages/search",
+      "output": "src/components/vant-uni/uni-search.vue",
+      "exportName": "UniSearch",
+      "generated": true
+    },
+    {
+      "source": "packages/share-sheet",
+      "output": "src/components/vant-uni/uni-share-sheet.vue",
+      "exportName": "UniShareSheet",
+      "generated": true
+    },
+    {
+      "source": "packages/sidebar",
+      "output": "src/components/vant-uni/uni-sidebar.vue",
+      "exportName": "UniSidebar",
+      "generated": true
+    },
+    {
+      "source": "packages/sidebar-item",
+      "output": "src/components/vant-uni/uni-sidebar-item.vue",
+      "exportName": "UniSidebarItem",
+      "generated": true
+    },
+    {
+      "source": "packages/skeleton",
+      "output": "src/components/vant-uni/uni-skeleton.vue",
+      "exportName": "UniSkeleton",
+      "generated": true
+    },
+    {
+      "source": "packages/slider",
+      "output": "src/components/vant-uni/uni-slider.vue",
+      "exportName": "UniSlider",
+      "generated": true
+    },
+    {
+      "source": "packages/stepper",
+      "output": "src/components/vant-uni/uni-stepper.vue",
+      "exportName": "UniStepper",
+      "generated": true
+    },
+    {
+      "source": "packages/steps",
+      "output": "src/components/vant-uni/uni-steps.vue",
+      "exportName": "UniSteps",
+      "generated": true
+    },
+    {
+      "source": "packages/sticky",
+      "output": "src/components/vant-uni/uni-sticky.vue",
+      "exportName": "UniSticky",
+      "generated": true
+    },
+    {
+      "source": "packages/submit-bar",
+      "output": "src/components/vant-uni/uni-submit-bar.vue",
+      "exportName": "UniSubmitBar",
+      "generated": true
+    },
+    {
+      "source": "packages/swipe-cell",
+      "output": "src/components/vant-uni/uni-swipe-cell.vue",
+      "exportName": "UniSwipeCell",
+      "generated": true
+    },
+    {
+      "source": "packages/switch",
+      "output": "src/components/vant-uni/uni-switch.vue",
+      "exportName": "UniSwitch",
+      "generated": true
+    },
+    {
+      "source": "packages/tab",
+      "output": "src/components/vant-uni/uni-tab.vue",
+      "exportName": "UniTab",
+      "generated": true
+    },
+    {
+      "source": "packages/tabbar",
+      "output": "src/components/vant-uni/uni-tabbar.vue",
+      "exportName": "UniTabbar",
+      "generated": true
+    },
+    {
+      "source": "packages/tabbar-item",
+      "output": "src/components/vant-uni/uni-tabbar-item.vue",
+      "exportName": "UniTabbarItem",
+      "generated": true
+    },
+    {
+      "source": "packages/tabs",
+      "output": "src/components/vant-uni/uni-tabs.vue",
+      "exportName": "UniTabs",
+      "generated": true
+    },
+    {
+      "source": "packages/tag",
+      "output": "src/components/vant-uni/uni-tag.vue",
+      "exportName": "UniTag",
+      "generated": true
+    },
+    {
+      "source": "packages/toast",
+      "output": "src/components/vant-uni/uni-toast.vue",
+      "exportName": "UniToast",
+      "generated": true
+    },
+    {
+      "source": "packages/transition",
+      "output": "src/components/vant-uni/uni-transition.vue",
+      "exportName": "UniTransition",
+      "generated": true
+    },
+    {
+      "source": "packages/tree-select",
+      "output": "src/components/vant-uni/uni-tree-select.vue",
+      "exportName": "UniTreeSelect",
+      "generated": true
+    },
+    {
+      "source": "packages/uploader",
+      "output": "src/components/vant-uni/uni-uploader.vue",
+      "exportName": "UniUploader",
+      "generated": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "Vant UniApp",
+        "navigationBarBackgroundColor": "#f7f8fa",
+        "navigationBarTextStyle": "black"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarBackgroundColor": "#f7f8fa",
+    "navigationBarTitleText": "Vant UniApp",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f7f8fa"
+  }
+}

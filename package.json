@@ -1,75 +1,81 @@
 {
-  "name": "@vant/weapp",
-  "version": "1.11.7",
+  "name": "vant-uniapp",
+  "version": "0.1.0",
   "author": "vant-ui",
   "license": "MIT",
-  "miniprogram": "lib",
-  "description": "轻量、可靠的小程序 UI 组件库",
+  "description": "轻量、可靠的 uni-app Vue3 UI 组件库，迁移自 Vant Weapp 并兼容 Vant 4 H5 生态",
+  "type": "module",
+  "main": "dist/vant-uniapp/es/index.js",
+  "module": "dist/vant-uniapp/es/index.js",
+  "types": "dist/vant-uniapp/es/index.d.ts",
+  "files": [
+    "dist/vant-uniapp/**",
+    "README.md",
+    "LICENSE",
+    "MIGRATION_UNI_APP.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/vant-uniapp/es/index.d.ts",
+      "import": "./dist/vant-uniapp/es/index.js",
+      "default": "./dist/vant-uniapp/es/index.js"
+    },
+    "./es/*": "./dist/vant-uniapp/es/*"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "scripts": {
-    "dev": "node build/dev.mjs",
-    "lint": "eslint ./packages --ext .js,.ts --fix && stylelint \"packages/**/*.less\" --fix",
-    "prepare": "husky install",
-    "release": "sh build/release.sh",
-    "release:site": "vant-cli build-site && gh-pages -d site-dist --add",
-    "build:lib": "yarn && npx gulp -f build/compiler.js --series buildEs buildLib",
-    "upload:weapp": "node build/upload.js",
-    "test": "jest",
-    "test:watch": "jest --watch"
-  },
-  "files": [
-    "dist",
-    "lib"
-  ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/youzan/vant-weapp.git"
+    "url": "git+https://github.com/xvkong233/vant-uniapp.git"
   },
-  "lint-staged": {
-    "*.{ts,js}": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "*.{css,less}": [
-      "stylelint --fix",
-      "prettier --write"
-    ]
+  "homepage": "https://github.com/xvkong233/vant-uniapp#readme",
+  "keywords": [
+    "vant",
+    "uni-app",
+    "vue3",
+    "components",
+    "wechat-miniprogram"
+  ],
+  "scripts": {
+    "dev": "uni -p h5",
+    "dev:h5": "uni -p h5",
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build": "uni build -p h5",
+    "build:h5": "uni build -p h5",
+    "build:mp-weixin": "uni build -p mp-weixin",
+    "build:package": "node scripts/build-package.mjs",
+    "audit:migration": "node scripts/audit-uni-migration.mjs",
+    "pack:check": "cd dist/vant-uniapp && npm pack --dry-run",
+    "prepublishOnly": "npm run audit:migration && npm run typecheck && npm run build:h5 && npm run build:mp-weixin && npm run build:package && npm run pack:check",
+    "typecheck": "vue-tsc --noEmit"
   },
-  "homepage": "https://github.com/youzan/vant-weapp#readme",
+  "peerDependencies": {
+    "@dcloudio/uni-app": ">=3.0.0",
+    "@dcloudio/uni-components": ">=3.0.0",
+    "vant": ">=4.0.0",
+    "vue": ">=3.4.0"
+  },
   "devDependencies": {
-    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
-    "@babel/preset-typescript": "^7.16.0",
-    "@types/jest": "^27.0.2",
-    "@vant/cli": "^7.0.3",
-    "@vant/icons": "^3.0.1",
-    "@vant/stylelint-config": "^1.4.2",
-    "gulp": "^4.0.2",
-    "gulp-insert": "^0.5.0",
-    "gulp-less": "^5.0.0",
-    "gulp-postcss": "^9.0.1",
-    "gulp-rename": "^2.0.0",
-    "gulp-typescript": "^6.0.0-alpha.1",
-    "jest": "^27.3.1",
-    "lint-staged": "^13.0.3",
-    "merge2": "^1.4.1",
-    "miniprogram-api-typings": "^3.1.6",
-    "miniprogram-ci": "^1.6.1",
-    "miniprogram-simulate": "^1.4.2",
-    "stylelint": "13.13.1",
-    "ts-jest": "^27.0.7",
-    "tscpaths": "^0.0.9",
-    "typescript": "^4.4.4",
-    "vue": "^3.2.30"
+    "@dcloudio/uni-app": "3.0.0-alpha-5010220260604001",
+    "@dcloudio/uni-components": "3.0.0-alpha-5010220260604001",
+    "@dcloudio/uni-h5": "3.0.0-alpha-5010220260604001",
+    "@dcloudio/uni-mp-weixin": "3.0.0-alpha-5010220260604001",
+    "@dcloudio/types": "^3.4.17",
+    "@dcloudio/vite-plugin-uni": "3.0.0-alpha-5010220260604001",
+    "@vitejs/plugin-vue": "^5.2.0",
+    "less": "^4.2.0",
+    "typescript": "^5.4.2",
+    "vant": "^4.9.0",
+    "vite": "^5.2.8",
+    "vue": "^3.4.21",
+    "vue-i18n": "^9.14.1",
+    "vue-tsc": "^2.1.10"
   },
   "browserslist": [
-    "Chrome >= 53",
-    "ChromeAndroid >= 53",
-    "iOS >= 9"
-  ],
-  "resolutions": {
-    "source-map": "0.7.4"
-  }
+    "Chrome >= 87",
+    "iOS >= 12",
+    "Android >= 7"
+  ]
 }

@@ -1,0 +1,44 @@
+{
+  "name": "vant-uniapp",
+  "version": "0.1.0",
+  "description": "轻量、可靠的 uni-app Vue3 UI 组件库，迁移自 Vant Weapp 并兼容 Vant 4 H5 生态",
+  "author": "vant-ui",
+  "license": "MIT",
+  "type": "module",
+  "main": "./es/index.js",
+  "module": "./es/index.js",
+  "types": "./es/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./es/index.d.ts",
+      "import": "./es/index.js",
+      "default": "./es/index.js"
+    },
+    "./es/*": "./es/*"
+  },
+  "files": [
+    "es"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xvkong233/vant-uniapp.git"
+  },
+  "homepage": "https://github.com/xvkong233/vant-uniapp#readme",
+  "keywords": [
+    "vant",
+    "uni-app",
+    "vue3",
+    "components",
+    "wechat-miniprogram"
+  ],
+  "peerDependencies": {
+    "@dcloudio/uni-app": ">=3.0.0",
+    "@dcloudio/uni-components": ">=3.0.0",
+    "vant": ">=4.0.0",
+    "vue": ">=3.4.0"
+  }
+}
